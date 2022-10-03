@@ -1,7 +1,19 @@
-import './App.css';
+/* eslint-disable */
 
+import './App.css';
+import React from 'react';
+import MainPage from './MainPage/MainPage';
+import Countries from './components/Countries';
+import { Route, Routes } from 'react-router-dom';
 function App() {
-  return <div className="App">App</div>;
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/MainPage/:idName" element={<Countries />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
