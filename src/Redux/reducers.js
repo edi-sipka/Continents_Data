@@ -19,12 +19,12 @@ const countryReducers = (state = initialState, action) => {
   }
 };
 
-export const fetchCountries = createAsyncThunk(FETCH_DATA, async () => {
+export const fetchCountries = createAsyncThunk(FETCH_DATA, async (name) => {
   const response = await axios.get(api);
-  return response.data;
+  return response.data.filter((country) => country.region === name);
 });
 export const getList = createAsyncThunk(GET_LIST, async (name) => {
   const response = await axios.get(api);
-  return response.data.filter((country) => country.region == name);
+  return response.data.filter((country) => country.name.common == name);
 });
 export default countryReducers;

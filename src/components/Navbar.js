@@ -1,14 +1,20 @@
 /* eslint-disable */
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { FaMicrophone, FaEllipsisH } from 'react-icons/fa';
+import './Navbar.css';
 
 function Navbar() {
   return (
     <div className="navigation">
-      <Link to="/" element>
-        Country
-      </Link>
+      <NavLink to="/" element>
+        World Countries Data
+      </NavLink>
+      <div className="position">
+        <FaMicrophone />
+        <FaEllipsisH />
+      </div>
     </div>
   );
 }

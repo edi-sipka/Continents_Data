@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCountries } from '../Redux/reducers';
 import Continents from '../components/Continents';
-import world from '../Images/Continents.svg';
+import world from '../Image/Continents.svg';
 import './MainPage.css';
 
 function MainPage() {
@@ -15,6 +15,7 @@ function MainPage() {
   }, []);
   return (
     <div className="main">
+      <h2>Continents Data</h2>
       <img src={world} />
 
       <Continents />
