@@ -44,11 +44,13 @@ function Continents() {
       <div className="section">
         {continents.map(({ id, name, image }) => (
           <li key={id}>
-            <Link to={`${name}`}>{name}</Link>
+            <Link to={`${name}`}>
+              {name}
+              <button onClick={() => countriesList(name)} type="button">
+                <BsFillArrowRightCircleFill />
+              </button>
+            </Link>
             <img src={image} />
-            <button onClick={() => countriesList(name)} type="button">
-              <BsFillArrowRightCircleFill />
-            </button>
           </li>
         ))}
       </div>
