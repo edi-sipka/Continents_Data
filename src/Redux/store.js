@@ -7,6 +7,7 @@ import {
 } from '@reduxjs/toolkit';
 import countryReducers from './reducers';
 import thunk from 'redux-thunk';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import categorySelector from './category';
 
 const rootReducer = combineReducers({
@@ -14,5 +15,8 @@ const rootReducer = combineReducers({
   category: categorySelector,
 });
 
-const store = configureStore({ reducer: rootReducer }, applyMiddleware(thunk));
+const store = configureStore(
+  { reducer: rootReducer },
+  composeWithDevTools(applyMiddleware(thunk))
+);
 export default store;
