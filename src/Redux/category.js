@@ -4,7 +4,7 @@ import continents from '../list/list';
 
 const CATEGORY = 'CATEGORY';
 
-const category = (state = continents, action) => {
+const categorySelector = (state = continents, action) => {
   switch (action.type) {
     case CATEGORY:
       return action.payload;
@@ -16,13 +16,14 @@ const category = (state = continents, action) => {
 export const selectCategory = (category) => {
   return {
     type: CATEGORY,
-    payload: continents.filter((continent) => {
-      if (continent.name === category) {
-        return continent;
+    payload: continents.filter((value) => {
+      if (value.name === category) {
+        return value;
       } else if (category === 'All') {
         return continents;
       }
     }),
   };
 };
-export default category;
+
+export default categorySelector;
