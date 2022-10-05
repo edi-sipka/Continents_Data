@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-- [Coming soon ]("continentsdata.netlify.app")
+- [Check Here](continentsdata.netlify.app)
 
 ### Video Link
 
