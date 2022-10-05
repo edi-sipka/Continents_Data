@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-- [Check Here](continentsdata.netlify.app)
+- - live demo: [Click here](https://continentsdata.netlify.app/)
 
 ### Video Link
 
