@@ -25,7 +25,7 @@
 
 ### Video Link
 
-- [Coming soon]()
+- [Click here](https://www.loom.com/share/416d2612b52b4b85ad80e2f016ad6415)
 
 ## Getting Started
 
