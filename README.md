@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Continents_Data
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Continents_Data is a a React and Redux SPA application.
 
-## Available Scripts
+- In this project I used React and Redux to Fetch API data from Continents API.
+- You can filter through countries and briefly see all important countries data.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- React
+- Redux
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dev Dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React-routerDOM
+- Axios
+- Redux-toolkit
+- React-test-renderer
+- createAsyncThunk
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Coming soon ]()
 
-### `npm run build`
+### Video Link
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Coming soon]()
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple steps:
 
-### `npm run eject`
+- Copy this link `https://github.com/edi-sipka/Continents_Datat`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone `https://github.com/edi-sipka/Continents_Data`.
+- Go to the repository folder in your command prompt, run `cd country-stat`.
+- Run `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Type these commands into the terminal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- npm run build
+- Open dist/index.html in your web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run the application in local environment
 
-## Learn More
+Type this command in your terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- npm run start
+- Your web browser will open on localhost
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run tests
 
-### Code Splitting
+Type this command into the terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- npm run test
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 _Edi Sipka_
 
-### Making a Progressive Web App
+- GitHub: [@Edi-Sipka](https://github.com/edi-sipka)
+- Twitter: [@sipka_edii](https://twitter.com/sipka_edii)
+- LinkedIn: [Edi Sipka](https://www.linkedin.com/in/edi-%C5%A1ipka-5b681b202/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- Microverse
+- [Countries API](https://restcountries.com/v3.1/all).
+- [ Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the amazing [on Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is not licensed.
