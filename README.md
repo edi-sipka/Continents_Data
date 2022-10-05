@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-- [Coming soon ]()
+- [Coming soon ]("continentsdata.netlify.app")
 
 ### Video Link
 
