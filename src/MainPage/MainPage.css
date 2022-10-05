@@ -20,3 +20,32 @@ img {
 .btn:hover {
   color: red;
 }
+
+@media (max-width: 480px) {
+  .button {
+    width: 200px;
+    margin-left: 70px;
+    font-size: 12px;
+  }
+
+  img {
+    margin-right: 40px;
+  }
+
+  .h2 {
+    margin-right: 40px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 60%;
+  }
+}
