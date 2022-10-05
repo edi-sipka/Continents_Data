@@ -6,6 +6,7 @@ import MainPage from './MainPage/MainPage';
 import Countries from './components/Countries';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import CountriesPopup from './components/CountriesPopup';
 function App() {
   return (
     <div className="app">
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/:name" element={<Countries />} />
+        <Route path="/:name/:id" element={<CountriesPopup />} />
       </Routes>
     </div>
   );

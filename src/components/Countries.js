@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { aboutCountries } from '../Redux/reducers';
+import './Countries.css';
+import MainPage from '../MainPage/MainPage';
 
 const Countries = () => {
   const countries = useSelector((state) => state.countries);
@@ -19,16 +21,22 @@ const Countries = () => {
         {' '}
         <>
           {countries.map((country) => (
-            <li key={country?.name.common}>
+            <li key={country?.name.common} className="lists">
               <div className="list">
-                <h2>{country?.name.common}</h2>
-                <Link to={`/:/${country?.name.common}`}>
-                  <BsFillArrowRightCircleFill
-                    onClick={() => handleClick(country?.name.common)}
-                  />
-                </Link>
+                <div className="icons">
+                  <h2>{country?.name.common}</h2>
+                  <Link to={`/:/${country?.name.common}`}>
+                    <BsFillArrowRightCircleFill
+                      className="btn"
+                      onClick={() => handleClick(country?.name.common)}
+                    />
+                  </Link>
+                  <div className="image-position">
+                    <img src={country?.flags.png} alt="flag" />
+                  </div>
+                </div>
               </div>
-              <img src={country?.flags.png} alt="flag" />
+
               <div className="item">
                 <p>Capital:</p>
                 <p>{country?.capital}</p>

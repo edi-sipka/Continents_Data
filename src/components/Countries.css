@@ -1,0 +1,36 @@
+.row {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lists {
+  background-color: rgba(35, 1, 36, 0.43);
+  box-shadow: 5px 10px #aeaeae4e;
+  display: flex;
+  flex-direction: column;
+}
+
+.lists:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+}
+
+.image-position {
+  width: 300%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.icons {
+  font-size: 24px;
+  margin-left: 20px;
+}
