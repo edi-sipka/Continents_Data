@@ -4,7 +4,6 @@ import { allCountries } from '../Redux/reducers';
 import Continents from '../components/Continents';
 import world from '../Image/Continents.svg';
 import './MainPage.css';
-import Countries from '../components/Countries';
 
 function MainPage() {
   const dispatch = useDispatch();
@@ -20,8 +19,6 @@ function MainPage() {
 
       <h2>All Continents</h2>
       <Continents />
-      <h2>All Countries</h2>
-      <Countries />
     </div>
   );
 }
