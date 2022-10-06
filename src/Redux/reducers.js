@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import api from '../api/api';
@@ -24,14 +22,14 @@ export const allCountries = createAsyncThunk(FETCH_DATA, async (name) => {
   return response.data.filter((country) => {
     if (country.region === name) {
       return country;
-    } else if (country.subregion === name) {
+    }
+    if (country.subregion === name) {
       return country;
     }
+    return false;
   });
 });
 
-export const aboutCountries = (name) => {
-  return { type: COUNTRIES, payload: name };
-};
+export const aboutCountries = (name) => ({ type: COUNTRIES, payload: name });
 
 export default countryReducer;

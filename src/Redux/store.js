@@ -1,13 +1,11 @@
-/* eslint-disable */
-
 import {
   configureStore,
   applyMiddleware,
   combineReducers,
 } from '@reduxjs/toolkit';
-import countryReducers from './reducers';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import countryReducers from './reducers';
 import categorySelector from './category';
 
 const rootReducer = combineReducers({
@@ -17,6 +15,6 @@ const rootReducer = combineReducers({
 
 const store = configureStore(
   { reducer: rootReducer },
-  composeWithDevTools(applyMiddleware(thunk))
+  composeWithDevTools(applyMiddleware(thunk)),
 );
 export default store;

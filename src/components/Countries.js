@@ -1,12 +1,10 @@
-/* eslint-disable */
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { aboutCountries } from '../Redux/reducers';
 import './Countries.css';
-import MainPage from '../MainPage/MainPage';
 
 const Countries = () => {
   const countries = useSelector((state) => state.countries);

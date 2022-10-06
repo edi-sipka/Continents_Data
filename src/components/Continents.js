@@ -1,11 +1,9 @@
-/* eslint-disable */
-
 import React from 'react';
-import { allCountries } from '../Redux/reducers';
-import { getCategory } from '../Redux/category';
 import { Link } from 'react-router-dom';
 import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 import { useSelector, useDispatch } from 'react-redux';
+import { getCategory } from '../Redux/category';
+import { allCountries } from '../Redux/reducers';
 import './Continents.css';
 
 const Continents = () => {

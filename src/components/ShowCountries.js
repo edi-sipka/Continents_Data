@@ -1,5 +1,4 @@
-/* eslint-disable */
-import React, { useEffect } from 'react';
+/* import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getList } from '../Redux/reducers';
 
@@ -13,3 +12,4 @@ function showCountries() {
 }
 
 export default showCountries;
+*/

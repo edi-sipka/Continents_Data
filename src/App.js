@@ -1,12 +1,11 @@
-/* eslint-disable */
-
 import './App.css';
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import MainPage from './MainPage/MainPage';
 import Countries from './components/Countries';
-import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import CountriesPopup from './components/CountriesPopup';
+
 function App() {
   return (
     <div className="app">
