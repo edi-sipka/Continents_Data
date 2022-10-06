@@ -21,11 +21,11 @@
 
 ## Live Demo
 
-- live demo: [Click here](https://continentsdata.netlify.app/)
+- live demo: [Click here](https://data-continents.netlify.app/)
 
 ### Video Link
 
-- [Click here](https://www.loom.com/share/df0fcbaf157f4810be5fc336e1845181)
+- [Click here](https://www.loom.com/share/62b6a66ac5a240f2897aa9ac23c61de1)
 
 ## Getting Started
 
