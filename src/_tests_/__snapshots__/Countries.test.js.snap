@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar rendering Navbar rendering 1`] = `
+<div
+  className="countries"
+>
+  <ul
+    className="row"
+  >
+     
+  </ul>
+</div>
+`;
