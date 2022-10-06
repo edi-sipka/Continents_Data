@@ -17,17 +17,9 @@ const countryReducer = (state = initialState, action) => {
   }
 };
 
-export const allCountries = createAsyncThunk(FETCH_DATA, async (name) => {
+export const allCountries = createAsyncThunk(FETCH_DATA, async () => {
   const response = await axios.get(api);
-  return response.data.filter((country) => {
-    if (country.region === name) {
-      return country;
-    }
-    if (country.subregion === name) {
-      return country;
-    }
-    return false;
-  });
+  return response.data.slice(0, 40).map((country) => country);
 });
 
 export const aboutCountries = (name) => ({ type: COUNTRIES, payload: name });

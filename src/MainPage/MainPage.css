@@ -24,7 +24,6 @@ img {
 @media (max-width: 480px) {
   .button {
     width: 200px;
-    margin-left: 70px;
     font-size: 12px;
   }
 

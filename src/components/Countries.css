@@ -23,6 +23,32 @@
   justify-content: center;
 }
 
+.text-field {
+  background-color: #af059654;
+  color: white;
+  padding: 12px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 40px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  appearance: button;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-field input {
+  background-color: #cd4c98;
+  color: white;
+  border: none;
+  outline-style: none;
+}
+
+.text-field input::placeholder {
+  color: white;
+}
+
 .item {
   display: flex;
   gap: 20px;
