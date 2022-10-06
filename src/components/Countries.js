@@ -60,8 +60,9 @@ const Countries = () => {
               ) {
                 return country;
               }
-              return country;
+              return false;
             })
+
             .map((country) => (
               <li key={country.name.common} className="lists">
                 <div className="list">
